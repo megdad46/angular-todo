@@ -115,6 +115,14 @@
           }
         }
       }
-    }},
-  "defaultProject": "a-todo-list"
+    }
+  },
+  "defaultProject": "a-todo-list",
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "inlineTemplate": true
+      }
+    }
+  }
 }
